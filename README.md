@@ -10,4 +10,4 @@
     theme: shell
     ```
 
-4. Your can change your memo in theme's _config.yml.
+4. Your can change your `memo` and `favicon` in theme's _config.yml.
