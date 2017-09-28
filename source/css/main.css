@@ -10,6 +10,7 @@ body {
     border-style: solid;
     border-radius: 50%;
     display: block;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto 
 }
@@ -36,10 +37,12 @@ body {
 }
 
 .site-info {
+    display: block;
     bottom: 0;
     width: 100%;
     font-weight: 100;
     margin-top: auto;
+    padding: 20px;
     color: #877f6c;
 }
 
@@ -74,4 +77,14 @@ body {
 .article_time {
     color: #877f6c;
     font-weight: 10;
+}
+
+.scroll {
+    right: 0;
+    position: fixed;
+    top: 61.8%;
+    text-align: center;
+    z-index: 999;
+    font-size: 100%;
+    line-height: 42px;
 }

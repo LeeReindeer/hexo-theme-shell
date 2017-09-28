@@ -8,10 +8,10 @@
         </a>
     </h2>
     <!-- Date and Author -->
-    <p class="blog_post_meta">
+    <p class="blog_post_meta text-center text-muted">
         <%= post.date.format(config.date_format) %>
-        <% if(post.author) { %>
-            by <%- post.author %>
+        <% if(config.author) { %>
+            by <%- config.author %>
         <% } %>
     </p>
     <!-- Content -->
@@ -19,7 +19,11 @@
     </div>
 </div>
 <hr />
-
+<!--scroll bar-->
+<div class="scroll">
+    <a href="#" title="Back to top"><i class="fa fa-arrow-up fa-lg fa-border" aria-hidden="true" style="color:grey" ></i></a><br>
+    <a href="#footer" title="Go to bottom"><i class="fa fa-arrow-down fa-lg fa-border" aria-hidden="true" style="color:grey"></i></a>
+</div>
 <!--disqus comment-->
 <% if (post.comments && config.disqus_shortname){ %>
 <section id="comments">
