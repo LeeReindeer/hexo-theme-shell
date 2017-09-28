@@ -3,8 +3,20 @@ body {
      font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
 }
 
+.user_avatar {
+    width:  110px;
+    height: 110px;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
 .blog_index {
-    margin: 20px;
+    margin: 20px 40px 20px 40px;
+    padding: 17px;
 }
 
 .blog_post {
@@ -24,10 +36,10 @@ body {
 }
 
 .site-info {
-    position: absolute;
     bottom: 0;
-    right: 0;
+    width: 100%;
     font-weight: 100;
+    margin-top: auto;
     color: #877f6c;
 }
 
