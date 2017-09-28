@@ -1,20 +1,5 @@
 <!DOCTYPE html>
 
-<header>
-    <%- partial('_partial/header') %>
-</header>
-<div>
-    <h1 class="text-center site_title">
-        <%=config.title%>
-    </h1>
-    <p class="text-center text-muted">
-    <%if (theme.memo){%>
-    <%=theme.memo%>
-    <%} else{%>
-     
-    <%}%>
-    </p>
-</div>
 <hr>
 <div class="row content">
     <% page.posts.each(function(post){ %>

@@ -1,3 +1,16 @@
 <div class="row">
-    <img src="<%-config.avatar%>" alt="avatar" class = "user_avatar" >
+    <a href="/"><img src="<%-config.avatar%>" alt="avatar" class = "user_avatar" ></a>
+</div>
+<div class="row">
+    <a href="/">
+    <h1 class="text-center text-muted site_title">
+        <%=config.title%>
+    </h1>
+    </a>
+    <p class="text-center text-muted">
+    <%if (theme.memo){%>
+    <%=theme.memo%>
+    <%} else{%>
+    <%}%>
+    </p>
 </div>

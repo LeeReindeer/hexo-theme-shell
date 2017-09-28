@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
    <%- partial('_partial/head') %>
+   <header class="hidden-xs">
+    <%- partial('_partial/header') %>
+   </header>
    <body>
        <div class="container-fluid">
            <%- body %>
        </div>
        <div>
-       <footer class="site-info hidden-xs" id="footer">
+       <footer class="site-info" id="footer">
             <%- partial('_partial/footer') %>
        </footer>
        </div>
@@ -14,7 +17,6 @@
        <!--make image responsive-->
        <script>
        $(document).ready(function() {
-           $("button").addClass("animated bounce");
            $("img").addClass("img-responsive");
            });
        </script>
