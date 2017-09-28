@@ -1,0 +1,12 @@
+{
+  "name": "shell",
+  "version": "1.0.0",
+  "description": "shell hexo theme",
+  "keywords": [
+    "shell",
+    "Hexo"
+  ],
+  "author": "LeeReindeer <reindeerlee.work@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}

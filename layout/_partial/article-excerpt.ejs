@@ -1,0 +1,10 @@
+<div class="blog_index col-lg-12 col-md-6 col-sm-3 ">
+    <p class="article_time">
+        <%= post.date.format(config.date_format) %>
+    </p>
+    <h1 class="article_title">
+        <a href="<%- url_for(post.path) %>">
+            <%- post.title %>
+        </a>
+    </h1>
+</div>
