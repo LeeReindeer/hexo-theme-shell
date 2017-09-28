@@ -15,6 +15,14 @@ body {
     margin-right: auto 
 }
 
+.header_content {
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 1100px;
+    margin: 10px auto 10px auto;
+    position: relative;
+}
+
 .blog_index {
     margin: 20px 40px 20px 40px;
     padding: 17px;
@@ -25,7 +33,7 @@ body {
     width: 100%;
     max-width: 1250px;
     background-color: #ffffff;
-    margin: 40px auto 20px auto;
+    margin: 10px auto 10px auto;
     border-radius:  10px;
     border: 2px solid #eee;
     position: relative;
@@ -52,7 +60,7 @@ body {
     width: 100%;
     max-width: 800px;
     background-color: #ffffff;
-    margin: 40px auto 20px auto;
+    margin: 10px auto 10px auto;
     border-radius:  10px;
     border: 1px solid #eee;
     position: relative;
