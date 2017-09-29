@@ -97,3 +97,12 @@ body {
     font-size: 100%;
     line-height: 42px;
 }
+
+
+.open_btn {
+    display: block;
+    color: #000000;
+    font-weight: 400;
+    position: relative;
+    margin: auto auto 10px auto;
+}

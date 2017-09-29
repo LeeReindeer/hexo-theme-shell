@@ -22,7 +22,7 @@
 <!--scroll bar-->
 <%- partial('_partial/scroll') %>
 <!--disqus comment-->
-<% if (post.comments && config.disqus_shortname){ %>
+<% if (theme.comment && post.comments && config.disqus_shortname){ %>
 <section id="comments">
 <div id="disqus_thread"></div>
 <script>

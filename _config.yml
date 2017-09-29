@@ -4,5 +4,7 @@ memo : 看看我,看看我,我体内的Monster越来越大了.
 # site favicon
 favicon: /favicon.ico
 
+# whether to open disqus comment
+comment: true
 # Article width
 #width: 90%

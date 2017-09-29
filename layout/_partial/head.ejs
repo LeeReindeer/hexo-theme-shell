@@ -27,4 +27,21 @@
     <% if (theme.favicon){ %>
         <link rel="icon" href="<%- theme.favicon %>">
     <% }%>
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!--make image responsive-->
+    <script>
+    $(document).ready(function() {
+        $("img").addClass("img-responsive");
+    });
+    </script>
+    <!--open comment-->
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("#comments").hide();
+        $("#open_btn").click(function(){
+            $("#comments").toggle();
+            $("#open_btn").hide();
+        });
+    });
+    </script>
 </head>
