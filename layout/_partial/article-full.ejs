@@ -21,6 +21,10 @@
 <hr />
 <!--scroll bar-->
 <%- partial('_partial/scroll') %>
+<!--open comment-->
+<div>
+    <button class="btn open_btn" id="open_btn" value="Open Comment">Open Comment</button>
+</div>
 <!--disqus comment-->
 <% if (theme.comment && post.comments && config.disqus_shortname){ %>
 <section id="comments">
