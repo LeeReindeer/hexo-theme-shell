@@ -77,7 +77,7 @@ body {
 }
 
 .article_title {
-    color: #1191e6;
+    color: #dc9fb4;
     font-size: 17px;
     font-weight: 400;
     line-height: 20px;
@@ -98,11 +98,32 @@ body {
     line-height: 42px;
 }
 
-
 .open_btn {
     display: block;
     color: #000000;
     font-weight: 400;
     position: relative;
     margin: auto auto 10px auto;
+}
+
+.menu_inner {
+    display: block;
+    padding: 30px 40px 24px;
+    text-align: center;
+}
+
+.menu_item {
+    font-size: 17px;
+    display: inline-block;
+    margin: 16px 16px 16px 16px;
+}
+
+.prev {
+    margin: auto auto 10px auto;
+    display: table;
+}
+
+.next {
+    margin: auto auto 10px auto;
+    display: table;
 }

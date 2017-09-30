@@ -1,8 +1,15 @@
-<!DOCTYPE html>
-
-<hr>
 <div class="row content">
+<!--menu-->
+  <div id="menu-inner">
+  <p style="text-align:center">
+    <% Object.keys(theme.menu).forEach(function(key) { %>
+      <a href="<%=theme.menu[key]%>" class="menu_item"><%=key%></a>
+    <% }); %>
+  </p>
+  </div>
+  <hr>
     <% page.posts.each(function(post){ %>
         <%- partial('_partial/article-excerpt', {post: post}) %>
     <%})%>
 </div>
+<%-partial('_partial/page-index')%>

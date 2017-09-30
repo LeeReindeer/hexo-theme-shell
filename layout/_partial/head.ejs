@@ -21,22 +21,21 @@
     <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap/3.2.0/css/bootstrap.min.css">
     <!--main css-->
     <%- css('css/main') %>
-    <!--fa icon-->
+    <style>
+      a {
+          color: #<%=theme.link%>;
+      }
+    </style>
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
     <!--icon-->
     <% if (theme.favicon){ %>
         <link rel="icon" href="<%- theme.favicon %>">
     <% }%>
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-    <!--make image responsive-->
-    <script>
-    $(document).ready(function() {
-        $("img").addClass("img-responsive");
-    });
-    </script>
-    <!--open comment-->
-    <script type="text/javascript">
+    <script async type="text/javascript">
     $(document).ready(function(){
+    //make image responsive
+        $("img").addClass("img-responsive");
         $("#comments").hide();
         $("#open_btn").click(function(){
             $("#comments").toggle();

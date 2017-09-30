@@ -1,6 +1,9 @@
 # set your memo here
 memo : 看看我,看看我,我体内的Monster越来越大了.
 
+# chang your link color here,do not add prefix '#'
+link: f596aa
+
 # site favicon
 favicon: /favicon.ico
 
@@ -8,3 +11,9 @@ favicon: /favicon.ico
 comment: true
 # Article width
 #width: 90%
+
+# main menu navigation
+menu:
+  Home: /
+  About: /about
+  Archives: /archives
