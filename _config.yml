@@ -16,4 +16,5 @@ comment: true
 menu:
   Home: /
   About: /about
-  Archives: /archives
+  #Archives: /archives
+  Links: /links
